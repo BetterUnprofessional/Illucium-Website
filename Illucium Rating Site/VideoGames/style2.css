@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(164, 165, 165);
+}
+.topnav{
+    padding-top:0;
+    padding-bottom:0;
+}
+.topnavitem{
+    padding-left: 2em;
+    padding-right:2em;
+}
+
+.nbbSize{
+    font-size:2rem;
+}
+#title{
+    margin-left:25%;
+    margin-right:25%;
+    border:10px;
+    border-style:groove;
+}
+a.headerlink{
+    color:inherit;
+    text-decoration: none;
+}
+a.listlink{
+    color:inherit;
+    text-decoration: none;
+}
+.balldisable{
+    list-style-type:none;
+}
+.normalmargins{
+    margin:2rem;
+}
+.mborder{
+    border-style:solid;
+    border-color:white;
+    border-width:5px;
+}
+#wikipagetitle{
+
+    border:10px;
+    border-style:groove;
+}
