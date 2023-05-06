@@ -17,8 +17,7 @@ body{
     font-size:2rem;
 }
 #title{
-    margin-left:25%;
-    margin-right:25%;
+
     border:10px;
     border-style:groove;
 }
@@ -47,4 +46,9 @@ a.listlink{
 
     border:10px;
     border-style:groove;
+}
+.scoreimg{
+    width:200px;
+    padding:0px;
+    margin-right:40px;
 }
