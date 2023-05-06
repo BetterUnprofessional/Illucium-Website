@@ -12,6 +12,7 @@ body{
     padding-right:2em;
 }
 
+/*NavBarBrandSize Kekw dont forgor*/
 .nbbSize{
     font-size:2rem;
 }
@@ -30,6 +31,8 @@ a.listlink{
     color:inherit;
     text-decoration: none;
 }
+
+/*Bullet Point in front of list disable*/
 .balldisable{
     list-style-type:none;
 }

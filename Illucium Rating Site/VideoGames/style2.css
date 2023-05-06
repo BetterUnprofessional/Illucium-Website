@@ -12,6 +12,7 @@ body{
     padding-right:2em;
 }
 
+/*NavBarBrandSize Kekw dont forgor*/
 .nbbSize{
     font-size:2rem;
 }
@@ -35,6 +36,8 @@ a.listlink{
 .normalmargins{
     margin:2rem;
 }
+
+
 .mborder{
     border-style:solid;
     border-color:white;
