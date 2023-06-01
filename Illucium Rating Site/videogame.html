@@ -48,14 +48,30 @@
 
 <div class="container">
     <div class="input-group">
-        <input type="text" class="searchbar form-control" id="mytext" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <input type="text" class="searchbar form-control" autocomplete="off" id="mytext" aria-label="Recipient's username" aria-describedby="button-addon2">
         
-        <div class="input-group-append"><a href="#here"><button class="btn btn-secondary " type="button" onclick="myFunction()">
+        <div class="input-group-append"><a href="#here"><button class="btn btn-secondary " id="searchbutton" type="button" onclick="myFunction()">
             Submit
         </button></a></div>
         
     </div>
 </div>
+
+<!--Script to Make Search Bar Work on Enter-->
+<script>
+    //search when enter key is pressed
+
+       var input = document.getElementById("mytext");
+       
+       console.log(input);
+       
+       input.addEventListener("keypress", function(event){
+           if(event.key === "Enter"){
+               event.preventDefault();
+               document.getElementById("searchbutton").click();
+           }
+       })
+   </script>
  
 <br>
 <br>
