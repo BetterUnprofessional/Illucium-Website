@@ -44,6 +44,7 @@ a.listlink{
     border-style:groove;
     padding-top:50px;
     padding-bottom:50px;
+    scroll-margin-top: 200px;
 }
 .wikilinkhead{
     border-bottom:10px;
@@ -58,10 +59,15 @@ a.listlink{
 a.wikinav{
     color:inherit;
     text-decoration: none;
+    scroll-margin-top: 200px;
 }
 iframe{
     margin:25px;
 }
 #here{
+    padding:5px;
+    border:1px;
+    border-radius:5px;
     background-color:rgb(92, 92, 92);
+    scroll-margin-top:200px;
 }
